@@ -18,7 +18,7 @@ routes:
 * /invoices/:id/details (GET)
 * /invoices/:id/details/:id (GET)
 * /invoices/:id/details/:id/edit (PUT)
-* /invoices/:id/details/:id/create (POST)
+* /invoices/:id/details/create (POST)
 * /invoices/:id/details/:id/delete (DELETE)
 
 ```
