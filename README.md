@@ -51,7 +51,7 @@ userId,
 invoiceId
 
 
-გამოყენებული უნდა იქნას:
+უნდა გამოიყენოთ:
 ბაზა: mongodb (mongoose orm),
 Promise,
 express.js
