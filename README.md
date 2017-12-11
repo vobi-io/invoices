@@ -6,21 +6,20 @@
 * 4)იუზერების ინვოისების სია
 
 routes:
-* /user/login
-* /user/signup
-* /user/:id:/invoices (query params: page (required), searchText : 'test')
+* /user/login (POST)
+* /user/signup (POST)
+* /user/:id/invoices (query params: page (required), searchText : 'test')
 
-* /invoices/create
-* /invoices/update
-* /invoices/edit
-* /invoices/delete
-* /invoices/list (query params: page (required), searchText : 'test')
+* /invoices/create (POST)
+* /invoices/edit (PUT)
+* /invoices/delete (DELETE)
+* /invoices/list (GET) (query params: page (required), searchText : 'test')
 
-* /invoices/:id/details
-* /invoices/:id/details/:id
-* /invoices/:id/details/:id/edit
-* /invoices/:id/details/:id/create
-* /invoices/:id/details/:id/delete
+* /invoices/:id/details (GET)
+* /invoices/:id/details/:id (GET)
+* /invoices/:id/details/:id/edit (PUT)
+* /invoices/:id/details/:id/create (POST)
+* /invoices/:id/details/:id/delete (DELETE)
 
 ```
 user:
