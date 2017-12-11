@@ -43,7 +43,7 @@ address
 Invoice details fields:
 id,
 name,
-desctiption
+description,
 quantity,
 price,
 total,
