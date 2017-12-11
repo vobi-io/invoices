@@ -22,11 +22,6 @@ routes:
 /invoices/:id/details/:id/create
 /invoices/:id/details/:id/delete
 
-გამოყენებული უნდა იქნას:
-ბაზა: mongodb (mongoose orm)
-Promise
-express.js
-
 user:
 id
 username,
@@ -54,3 +49,10 @@ price,
 total,
 userId,
 invoiceId
+
+
+გამოყენებული უნდა იქნას:
+ბაზა: mongodb (mongoose orm),
+Promise,
+express.js
+
