@@ -6,22 +6,23 @@
 4)იუზერების ინვოისების სია
 
 routes:
-/user/login
-/user/signup
-/user/:id:/invoices (query params: page (required), searchText : 'test')
+* /user/login
+* /user/signup
+* /user/:id:/invoices (query params: page (required), searchText : 'test')
 
-/invoices/create
-/invoices/update
-/invoices/edit
-/invoices/delete
-/invoices/list (query params: page (required), searchText : 'test')
+* /invoices/create
+* /invoices/update
+* /invoices/edit
+* /invoices/delete
+* /invoices/list (query params: page (required), searchText : 'test')
 
-/invoices/:id/details
-/invoices/:id/details/:id
-/invoices/:id/details/:id/edit
-/invoices/:id/details/:id/create
-/invoices/:id/details/:id/delete
+* /invoices/:id/details
+* /invoices/:id/details/:id
+* /invoices/:id/details/:id/edit
+* /invoices/:id/details/:id/create
+* /invoices/:id/details/:id/delete
 
+```
 user:
 id
 username,
@@ -49,10 +50,10 @@ price,
 total,
 userId,
 invoiceId
-
+```
 
 უნდა გამოიყენოთ:
-ბაზა: mongodb (mongoose orm),
-Promise,
-express.js
+* ბაზა: mongodb (mongoose orm),
+* Promise,
+* express.js
 
