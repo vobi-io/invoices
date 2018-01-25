@@ -56,3 +56,8 @@ invoiceId
 * Promise,
 * express.js
 
+Front: 
+* react.js
+* redux saga
+* bootrap
+
