@@ -60,4 +60,4 @@ Front:
 * react.js
 * redux saga
 * bootrap
-
+* immutable
