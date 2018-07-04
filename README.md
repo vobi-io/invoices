@@ -45,5 +45,5 @@ backend:
 
 Front: 
 * react.js
-* appolo client https://www.apollographql.com/client/
+* appollo client https://www.apollographql.com/client/
 * bootrap
