@@ -35,10 +35,12 @@ userId,
 invoiceId
 ```
 
-უნდა გამოიყენოთ:
-* ბაზა: mongodb (mongoose orm),
+Please use:
+
+backend:
+* Database: mongodb (mongoose orm),
 * Promise async await
-* express.js
+* Node (express.js)
 * grapqhl https://www.graphql.com/
 
 Front: 
