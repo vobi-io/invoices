@@ -5,6 +5,22 @@
 * 3)ინვოისის დეტალების დამატება, რედაქტირება, წაშლა.
 * 4)იუზერების ინვოისების სია
 
+Mutation:
+login
+signup
+createInvoice
+editInvoice
+deleteInvoice
+createInvoiceDetails
+editInvoiceDetails
+deleteInvoiceDetails
+
+Query:
+getInvoices (pagination, searchText: 'test')
+getInvoiceById
+getInvoicesByUserId
+getInvoiceDetailsByInvoiceId
+
 ```
 user:
 id
