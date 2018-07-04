@@ -6,20 +6,20 @@
 * 4)იუზერების ინვოისების სია
 
 Mutation:
-login
-signup
-createInvoice
-editInvoice
-deleteInvoice
-createInvoiceDetails
-editInvoiceDetails
-deleteInvoiceDetails
+* login
+* signup
+* createInvoice
+* editInvoice
+* deleteInvoice
+* createInvoiceDetails
+* editInvoiceDetails
+* deleteInvoiceDetails
 
 Query:
-getInvoices (pagination, searchText: 'test')
-getInvoiceById
-getInvoicesByUserId
-getInvoiceDetailsByInvoiceId
+* getInvoices (pagination, searchText: 'test')
+* getInvoiceById
+* getInvoicesByUserId
+* getInvoiceDetailsByInvoiceId
 
 ```
 user:
