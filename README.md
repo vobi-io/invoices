@@ -5,22 +5,6 @@
 * 3)ინვოისის დეტალების დამატება, რედაქტირება, წაშლა.
 * 4)იუზერების ინვოისების სია
 
-routes:
-* /user/login (POST)
-* /user/signup (POST)
-* /user/:id/invoices (query params: page (required), searchText : 'test')
-
-* /invoices/create (POST)
-* /invoices/edit (PUT)
-* /invoices/delete (DELETE)
-* /invoices/list (GET) (query params: page (required), searchText : 'test')
-
-* /invoices/:id/details (GET)
-* /invoices/:id/details/:id (GET)
-* /invoices/:id/details/:id/edit (PUT)
-* /invoices/:id/details/create (POST)
-* /invoices/:id/details/:id/delete (DELETE)
-
 ```
 user:
 id
@@ -53,11 +37,11 @@ invoiceId
 
 უნდა გამოიყენოთ:
 * ბაზა: mongodb (mongoose orm),
-* Promise,
+* Promise async await
 * express.js
+* grapqhl https://www.graphql.com/
 
 Front: 
 * react.js
-* redux saga
+* appolo client https://www.apollographql.com/client/
 * bootrap
-* immutable
